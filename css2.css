@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(224, 117, 45);
+}
+.foto1{
+    margin-left: 300pt;
+    width: 200px;
+	height: 200px;
+    margin-top: 40px;
+    float: left;
+}
+.div{
+    margin-top: 20pt;
+    background-color: white;
+    height: 1250px;
+    width: 1000px;
+    border: solid 1px;
+    border-radius: 20px;
+    margin-bottom: 30pt;
+}
+nav { 
+    width: 1536px;
+    font-family: arial;
+} 
+
+nav ul {
+    background:#707579;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+ }
+
+nav ul li{
+    float:left;
+}
+
+nav ul li:hover{
+    background:#fff;
+}
+
+nav ul li:hover a{
+    color:#000;
+}
+
+nav ul li a{
+    display: block;
+    padding: 25px;
+    color: black;
+    text-decoration: none;
+}
